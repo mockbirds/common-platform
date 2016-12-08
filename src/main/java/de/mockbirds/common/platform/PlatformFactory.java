@@ -32,7 +32,7 @@ public final class PlatformFactory {
             if (SystemUtils.IS_OS_MAC) {
                 platform = new de.mockbirds.common.platform.impl.mac.PlatformImpl();
             } else if (SystemUtils.IS_OS_WINDOWS) {
-                platform = new de.mockbirds.common.platform.impl.windows.PlatformImpl();
+//                platform = new de.mockbirds.common.platform.impl.windows.PlatformImpl();
             } else {
                 LOGGER.warn("Operating system not supported: {}", SystemUtils.OS_NAME);
             }
